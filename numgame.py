@@ -65,7 +65,6 @@ is_Guessing = True
 player_attempts = 0
 
 while is_Guessing:
-    print(f"{player_attempts} attempts {player_chances} chances")
     player_guess = input("Enter your guess: ")
     # check digit
     if player_chances != 1:
@@ -96,7 +95,6 @@ while is_Guessing:
         else:
             print("Type a number.")
     else:
-        print(f"{player_attempts} {player_chances}")
         print("Sorry, you're out of chances! The magic number disappears...")
         is_Guessing = False
         user_input = input("Play again? (y/n):")
