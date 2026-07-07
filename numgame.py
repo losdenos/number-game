@@ -60,7 +60,6 @@ max_num = 100
 magic_num = random.randint(min_num, max_num)
 print(f"I'm thinking of a number between {min_num} and {max_num}...")
 print(f"You have {player_chances} chances to guess the number.")
-initGame = False
 is_Guessing = True
 player_attempts = 0
 
